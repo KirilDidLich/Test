@@ -1,0 +1,55 @@
+body{
+    background-color:#ccc;
+    background-image: url(ABG.png);
+    background-position: 20% 20%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background: #ccc url("ABG.png") repeat fixed;
+}
+hr{
+    background-color: red;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+}
+p{
+    color:rgb(62, 112, 155);
+}
+h1{
+    color: #2f15a3;
+}
+h2{
+    color: #991111;
+}
+h3{
+    color: #aec919;
+}
+h1,h2,h3,h4,h5{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 5px;
+    margin-bottom: 35px;
+    border-top: 3px solid #fff3;
+}
+ul,ol{
+    border-width: 3px;
+    border-color: #fff;
+    border-style: dotted;
+}
+.LR8Block{
+    width: 50%;
+    color:white;
+    margin-left: 25%;
+    background-color: #fff4;
+    padding:10px;
+    border-radius: 5px;
+    height: 30px;
+    overflow: hidden;
+}
+.NextPageLink{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+}
